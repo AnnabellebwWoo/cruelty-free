@@ -1,0 +1,67 @@
+/* Basic resets */
+* {
+    margin: 0; /* Set margin to 0 */
+    padding: 0; /* Set padding to 0 */
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Antic Didone', serif;
+    padding: 40px; /* Add padding to the body */
+}
+
+h2 {
+    font-family: 'Playfair Display', serif; /* Apply Playfair Display font */
+    margin: 20px 0;                         /* Add some margin for spacing */
+}
+  
+h3 {
+    font-family: 'Playfair Display', serif; /* Apply Playfair Display font */
+    margin: 15px 0;                         /* Add some margin for spacing */
+}
+  
+/* Header styling */
+.header-container {
+    display: flex; /* Flexbox for horizontal alignment */
+    flex-direction: column;
+    align-items: center; /* Vertically center-align logo */
+    padding: 15px;
+    background-color: #dddcde;
+    border-radius: 15px;
+}
+  
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; /* Center the logo text */
+}
+
+/* Navigation wrapper styling */
+.nav-wrapper {
+    display: flex; /* Use flexbox for nav alignment */
+    justify-content: center; /* Center the nav menu */
+    
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal alignment */
+    gap: 20px; /* Spacing between the nav items */
+}
+  
+.nav-menu li {
+    font-size: 18px;
+}
+  
+.nav-menu a {
+    text-decoration: none; /* Remove underlines */
+    color: #333;
+    padding: 10px 15px; /* Add padding to nav items */
+    display: block; /* Ensure padding works correctly */
+}
+  
+.nav-menu a:hover {
+    background-color: #e7e5e5; /* Highlight effect on hover */
+    border-radius: 5px;
+}
