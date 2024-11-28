@@ -1,21 +1,21 @@
 import React from 'react';
-import './styles/index.css';
-import './components/about'
-import './components/brands'
-import './components/filter'
-import './components/footer'
-import './components/intro'
-import './components/menu'
+import './styles/styles.css';
+import About from './components/About'
+import Brands from './components/Brands'
+import Filter from './components/Filter'
+import Footer from './components/Footer'
+import Intro from './components/Intro'
+import Menu from './components/Menu'
 
 function App() {
   return (
     <div className="App">
-      <menu />
-      <intro />
-      <filter />
-      <brands />
-      <about />
-      <footer />
+      <Menu />
+      <Intro />
+      <Filter />
+      <Brands />
+      <About />
+      <Footer />
     </div>
   );
 }
