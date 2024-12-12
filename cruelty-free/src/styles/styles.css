@@ -85,7 +85,7 @@ body {
   display: flex;
   align-items: center;
   padding: 5px 15px;
-  background-color: #4CAF50;
+  background-color: #3e966a;
   color: white;
   border-radius: 20px;
   font-size: 14px;
@@ -106,5 +106,5 @@ body {
 }
 
 .remove-filter:hover {
-  color: #ff6666; 
+  color: #de6565; 
 }
